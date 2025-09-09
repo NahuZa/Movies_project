@@ -1,0 +1,54 @@
+Alien;117 perc;1979;Űrhajósok halálos idegennel találkoznak a fedélzeten. Lassú építkezésű, klausztrofób rémálom.
+Amélie;122 perc;2001;Egy párizsi pincérlány apró jótettekkel változtatja meg környezete életét. Színes, bájos mese.
+Avatar;162 perc;2009;Egy lebénult katona az őslakos na'vik oldalára áll a Pandora bolygón. Úttörő 3D-s látvány.
+Back to the Future;116 perc;1985;Egy tini véletlenül visszautazik az időben, és össze kell hoznia a szüleit. Pörgős időutazós klasszikus.
+Braveheart;178 perc;1995;William Wallace skót szabadságharca az angol uralom ellen. Monumentális csatajelenetek.
+Casino Royale;144 perc;2006;Bond első küldetése újraértelmezi a karaktert. Kegyetlen tét és elegáns stílus.
+City of God;130 perc;2002;Riói nyomornegyedekben felnövő fiatalok sorsát követi. Nyers realizmus és energikus elbeszélés.
+Coco;105 perc;2017;Egy kisfiú a Holtak Birodalmába kerül, hogy felfedezze családja múltját. Zene és emlékezet ünnepe.
+Fight Club;139 perc;1999;Egy elidegenedett irodista földalatti harci klubot alapít. Sötét szatíra a fogyasztói társadalomról és identitásról.
+Forrest Gump;142 perc;1994;Egy egyszerű férfi rendkívüli életútja, aki véletlenül is történelmet formál. Szívmelengető és humoros.
+Gladiator;155 perc;2000;Egy árulás áldozatául esett római hadvezér gladiátorként keresi bosszúját. Látványos és katartikus.
+Goodfellas;146 perc;1990;Egy maffiatag felemelkedése és bukása valós történet alapján. Pörgős, energikus gengszterfilm.
+Inception;148 perc;2010;Álomlopásra szakosodott tolvaj kap utolsó esélyt a jóvátételre. Réteges, látványos és elmét csavaró utazás.
+Interstellar;169 perc;2014;Űrexpedíció indul az emberiség megmentésére egy féregjáraton át. Látványos és érzelmes űroeposz.
+Jurassic Park;127 perc;1993;Kihalt dinoszauruszokat támasztanak fel egy élményparkban. A káoszelmélet hamar valóra válik.
+La La Land;128 perc;2016;Álmodozó zenész és színésznő szerelme Los Angelesben. Színes, nosztalgikus modern musical.
+Mad Max: Fury Road;120 perc;2015;Posztapokaliptikus üldözés egy végtelen úton. Lendületes, látványos és szinte megállíthatatlan.
+Parasite;132 perc;2019;Két család élete fonódik össze váratlan és sötét módon. Társadalmi szatíra éles fordulatokkal.
+Pirates of the Caribbean: The Curse of the Black Pearl;143 perc;2003;Jack Sparrow kapitány a Fekete Gyöngy átka ellen küzd. Humor és kaland a nyílt tengeren.
+Pulp Fiction;154 perc;1994;Több szálon futó, fekete humorral telt történetek Los Angeles alvilágából. Kultikus párbeszédek és emlékezetes jelenetek.
+Saving Private Ryan;169 perc;1998;Egy különítmény katona megmentésére indul a normandiai partraszállás után. Nyers és megrázó háborús film.
+Schindler's List;195 perc;1993;Egy gyáros több száz zsidó életét menti meg a Holokauszt idején. Megrendítő, fekete-fehér mestermű.
+Se7en;127 perc;1995;Két nyomozó a hét főbűn szerint gyilkoló sorozatgyilkost üldözi. Sötét, nyomasztó atmoszféra.
+Spirited Away;125 perc;2001;Egy kislány egy szellemek lakta világban próbálja megmenteni szüleit. Bűvös, időtlen mese.
+Star Wars: Episode IV – A New Hope;121 perc;1977;Egy farmfiú lázadó hőssé válik a Galaktikus Birodalom ellen. Klasszikus űreposz.
+Star Wars: Episode V – The Empire Strikes Back;124 perc;1980;A Birodalom visszavág, miközben Luke sötét igazsággal szembesül. A sorozat sötétebb, érettebb fejezete.
+Star Wars: Episode VI – Return of the Jedi;131 perc;1983;A végső összecsapás a Birodalommal és Darth Vaderrel. Reményteljes finálé.
+Terminator 2: Judgment Day;137 perc;1991;Egy átprogramozott terminátor a jövő megmentéséért harcol. Látványos, mérföldkőnek számító folytatás.
+The Avengers;143 perc;2012;A Föld legnagyobb hősei összefognak egy kozmikus fenyegetés ellen. Nagyszabású, közönségkedvenc crossover.
+The Big Lebowski;117 perc;1998;A „Dude” egy félresikerült emberrablásba keveredik. Abszurd, idézhető kultklasszikus.
+The Dark Knight;152 perc;2008;Batman összecsap Jokerrel, aki káoszba taszítaná Gothamet. Sötét, feszült és gondolatébresztő képregényadaptáció.
+The Departed;151 perc;2006;Beépített zsaru és besúgó élete fonódik össze a bostoni maffiában. Feszültséggel teli remake.
+The Godfather;175 perc;1972;A Corleone család hatalmi játszmái és a bűn világának ára. Ikonikus gengsztereposz.
+The Grand Budapest Hotel;99 perc;2014;Egy legendás portás és inasa különös kalandokba keveredik. Szimmetrikus képek, szelíd melankólia.
+The Green Mile;189 perc;1999;Halálsoron dolgozó őr különleges képességű rabot ismer meg. Emberség és csoda találkozása.
+The Intouchables;112 perc;2011;Egy mozgássérült arisztokrata és gondozója rendhagyó barátsága. Szívmelengető, humoros történet.
+The Lion King;88 perc;1994;Simba meg kell találja helyét a Szavannán. Shakespeare-i ihletésű felnövéstörténet.
+The Lord of the Rings: The Fellowship of the Ring;178 perc;2001;A Gyűrű Szövetsége útnak indul, hogy elpusztítsa a Hatalom Gyűrűjét. Epikus kaland Középföldén.
+The Lord of the Rings: The Return of the King;201 perc;2003;A végső összecsapás Szauron ellen és a Gyűrű sorsa. Oscar-díjrekorder befejezés.
+The Lord of the Rings: The Two Towers;179 perc;2002;A csapat szétszóródik, miközben háború közeleg. Lenyűgöző csaták és sötétedő tét.
+The Matrix;136 perc;1999;Neo ráébred, hogy a valóság szimuláció. Forradalmi vizuális effektusok és cyberpunk filozófia.
+The Pianist;150 perc;2002;Egy zsidó zongorista túlélési küzdelme a megszállt Varsóban. Megrendítő és visszafogott.
+The Prestige;130 perc;2006;Két rivális bűvész egyre veszélyesebb trükkökkel próbál felülkerekedni. Obszesszió és áldozat ára.
+The Shawshank Redemption;142 perc;1994;Egy ártatlanul elítélt bankár barátságot köt egy rabtárssal és kitartóan keresi a szabadulás útját. A remény erejéről szóló felemelő történet.
+The Shining;146 perc;1980;Egy író elszigetelt szállodában őrül meg. Hátborzongató képi világ és feszültség.
+The Silence of the Lambs;118 perc;1991;Egy fiatal FBI-ügynök egy börtönben ülő kannibál zsenitől kér segítséget. Feszült macska-egér játék.
+The Sixth Sense;107 perc;1999;Egy kisfiú halottakat lát, pszichológusa próbál segíteni. Emlékezetes csavar a végén.
+The Social Network;120 perc;2010;A Facebook születése barátságok és perek közepette. Gyors, pengeéles dialógusokkal.
+The Truman Show;103 perc;1998;Egy férfi rájön, hogy élete valójában egy valóságshow. Szatirikus és elgondolkodtató.
+The Usual Suspects;106 perc;1995;Egy rablás túlélője egy titokzatos alvilági figura történetét meséli. Csavaros, emlékezetes fináléval.
+The Wolf of Wall Street;180 perc;2013;Bróker felemelkedése drogokkal és csalásokkal tarkítva. Szatirikus és vad tempójú.
+Titanic;195 perc;1997;Sorsszerű szerelem a végzetes óceánjárón. Látványos, érzelmes eposz.
+Toy Story;81 perc;1995;A játékok életre kelnek, ha nem látja őket senki. Úttörő, teljesen CGI animáció.
+Whiplash;107 perc;2014;Fiatal dobos és zsarnoki tanára között mérgező versengés alakul ki. Kíméletlen tempó és kitartás.

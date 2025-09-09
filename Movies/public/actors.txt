@@ -1,0 +1,121 @@
+Adrien Brody;férfi 
+Al Pacino;férfi 
+Alexandre Rodrigues;férfi 
+Andrew Garfield;férfi 
+Anne Hathaway;nő 
+Anthony Gonzalez;férfi 
+Anthony Hopkins;férfi 
+Arnold Schwarzenegger;férfi 
+Audrey Tautou;nő 
+Ben Kingsley;férfi 
+Benicio del Toro;férfi 
+Brad Pitt;férfi 
+Bruce Willis;férfi 
+Carrie Fisher;nő 
+Carrie-Anne Moss;nő 
+Charlize Theron;nő 
+Choi Woo-shik;férfi 
+Chris Evans;férfi 
+Christian Bale;férfi 
+Christopher Lloyd;férfi 
+Connie Nielsen;nő 
+Daniel Craig;férfi 
+Danny Lloyd;férfi 
+Diane Keaton;nő 
+Ed Harris;férfi 
+Edward Furlong;férfi 
+Edward Norton;férfi 
+Elijah Wood;férfi 
+Elliot Page;férfi 
+Emma Stone;nő 
+Eva Green;nő 
+François Cluzet;férfi 
+Gabriel Byrne;férfi 
+Gael García Bernal;férfi 
+Gwyneth Paltrow;nő 
+Haley Joel Osment;férfi 
+Harrison Ford;férfi 
+Heath Ledger;férfi 
+Helena Bonham Carter;nő 
+Hugh Jackman;férfi 
+Ian McKellen;férfi 
+J. K. Simmons;férfi 
+Jack Nicholson;férfi 
+James Earl Jones;férfi 
+Jeff Bridges;férfi 
+Jeff Goldblum;férfi 
+Jeremy Irons;férfi 
+Jesse Eisenberg;férfi 
+Jessica Chastain;nő 
+Jim Carrey;férfi 
+Joaquin Phoenix;férfi 
+Jodie Foster;nő 
+Joe Pesci;férfi 
+John Goodman;férfi 
+John Hurt;férfi 
+John Travolta;férfi 
+Johnny Depp;férfi 
+Jonah Hill;férfi 
+Joseph Gordon-Levitt;férfi 
+Julianne Moore;nő 
+Kate Winslet;nő 
+Keanu Reeves;férfi 
+Keira Knightley;nő 
+Kevin Spacey;férfi 
+Laura Dern;nő 
+Laura Linney;nő 
+Laurence Fishburne;férfi 
+Lea Thompson;nő 
+Leandro Firmino;férfi 
+Leonardo DiCaprio;férfi 
+Liam Neeson;férfi 
+Linda Hamilton;nő 
+Mads Mikkelsen;férfi 
+Maggie Gyllenhaal;nő 
+Margot Robbie;nő 
+Mark Hamill;férfi 
+Marlon Brando;férfi 
+Mathieu Kassovitz;férfi 
+Matt Damon;férfi 
+Matthew Broderick;férfi 
+Matthew McConaughey;férfi 
+Mel Gibson;férfi 
+Michael Clarke Duncan;férfi 
+Michael J. Fox;férfi 
+Miles Teller;férfi 
+Miyu Irino;férfi 
+Morgan Freeman;férfi 
+Nicholas Hoult;férfi 
+Omar Sy;férfi 
+Orlando Bloom;férfi 
+Park So-dam;nő 
+Ralph Fiennes;férfi 
+Ray Liotta;férfi 
+Robert De Niro;férfi 
+Robert Downey Jr.;férfi 
+Robin Wright;nő 
+Rooney Mara;nő 
+Rumi Hiiragi;nő 
+Russell Crowe;férfi 
+Ryan Gosling;férfi 
+Sam Neill;férfi 
+Sam Worthington;férfi 
+Samuel L. Jackson;férfi 
+Saoirse Ronan;nő 
+Scarlett Johansson;nő 
+Shelley Duvall;nő 
+Sigourney Weaver;nő 
+Song Kang-ho;férfi 
+Sophie Marceau;nő 
+Thomas Kretschmann;férfi 
+Tim Allen;férfi 
+Tim Robbins;férfi 
+Tom Hanks;férfi 
+Tom Hardy;férfi 
+Tom Sizemore;férfi 
+Tom Skerritt;férfi 
+Toni Collette;nő 
+Tony Revolori;férfi 
+Uma Thurman;nő 
+Viggo Mortensen;férfi 
+Zoe Saldana;nő 
