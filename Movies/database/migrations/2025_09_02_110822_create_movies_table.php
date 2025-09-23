@@ -14,7 +14,8 @@ return new class extends Migration
         Schema::create('movies', function (Blueprint $table) {
             $table->id();
             $table->string('name',30);
-            $table->tinyInteger('category_id');
+            $table->unsignedBigInteger('categories_id');
+            $table->foreign('categories_id')->references('id')->on('categories');
             $table->string('description');
             $table->string('pic_path');
             $table->string('length');

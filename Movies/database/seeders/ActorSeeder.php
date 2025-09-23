@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Actor;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -22,7 +23,7 @@ class ActorSeeder extends Seeder
 
             
 
-            $filmek[] = [  // Helyes tömb hozzáadás
+            $szineszek[] = [  // Helyes tömb hozzáadás
                 'name' => $data[0] ?? null,  
                 'gender' => $data[1] ?? null,
                 
@@ -38,7 +39,8 @@ class ActorSeeder extends Seeder
             $actor->name = $szinesz['name'];
             $actor->gender = $szinesz['gender'];
             $actor->save();
-
+            
         }
+    
     }
 }

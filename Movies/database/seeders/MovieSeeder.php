@@ -22,11 +22,14 @@ class MovieSeeder extends Seeder
 
             
 
-            $filmek[] = [  // Helyes tömb hozzáadás
+            $szineszek[] = [  // Helyes tömb hozzáadás
                 'name' => $data[0] ?? null,  
                 'length' => $data[1] ?? null,
-                'release_date' => $data[2] ?? null,
+                'categories_id' => $data[2] ?? null,
                 'description' => $data[3] ?? null,
+                'pic_path' => $data[4] ?? null,
+                'release_date' => $data[5] ?? null
+                
             ];  
         }
 
@@ -38,11 +41,12 @@ class MovieSeeder extends Seeder
             $movie = new Movie();
             $movie->name = $film['name'];
             $movie->length = $film['length'];
-            $movie->release_date = $film['release_date'];
+            $movie->categories_id = $film['categories_id'];
             $movie->description = $film['description'];
+            $movie->pic_path = $film['pic_path'];
+            $movie->release_date = $film['release_date'];
             $movie->save();
+            
         }
-
-        
     }
 }

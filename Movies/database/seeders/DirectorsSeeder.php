@@ -5,25 +5,26 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class StudioSeeder extends Seeder
+class DirectorsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $studiok = array();
+        $rendezok = array();
 
 
-        $handle = fopen(public_path("studios.txt"), "r");
+        $handle = fopen(public_path("directors.txt"), "r");
 
         while (($line = fgets($handle)) !== false) {
             $data = explode(';', trim($line)); // Trim, hogy eltávolítsuk az extra whitespace-t
 
             
 
-            $filmek[] = [  // Helyes tömb hozzáadás
+            $rendezok[] = [  // Helyes tömb hozzáadás
                 'name' => $data[0] ?? null,  
+                
                 
             ];  
         }
@@ -32,11 +33,11 @@ class StudioSeeder extends Seeder
         
         
 
-        foreach ($studiok as $stud) {
-            $studio = new Studio();
-            $studio->name = $stud['name'];
-            $studio->save();
-
+        foreach ($rendezok as $rendezo) {
+            $director = new Director();
+            $director->name = $rendezo['name'];
+            $director->save();
+            
         }
     }
 }
