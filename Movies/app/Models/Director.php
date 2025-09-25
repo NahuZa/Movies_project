@@ -18,5 +18,6 @@ class Director extends EloquentModel
     protected $fillable = ['name'];
 
     public $timestamps = false;
+    
 
 }

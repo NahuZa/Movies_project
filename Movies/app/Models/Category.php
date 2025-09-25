@@ -17,6 +17,7 @@ class Category extends EloquentModel
 
     protected $fillable = ['category'];
 
+    
     public $timestamps = false;
 
 
@@ -25,4 +26,5 @@ class Category extends EloquentModel
         return $this->hasMany(Movie::class, 'categories_id', 'id');
     }
 
+    protected $fillable = ['category'];
 }
