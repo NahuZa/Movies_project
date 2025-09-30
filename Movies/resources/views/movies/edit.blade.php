@@ -36,7 +36,7 @@
                 @if($category->id == $movie->categories_id)
                     {{ $selected = 'selected' }}
                 @endif
-                <option value="{{ $category->id }}" {{ $selected }}>{{ $category->name }}</option>
+                <option value="{{ $category->id }}" {{ $selected }}>{{ $category->category }}</option>
             @endforeach
         </select>
     </fieldset>

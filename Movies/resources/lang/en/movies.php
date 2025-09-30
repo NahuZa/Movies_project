@@ -3,8 +3,8 @@
 return array (
   'movie' => 'Movie',
   'movies' => 'Movies',
-  'name\',30);' => 'Name\',30);',
-  'categories_id' => 'Categories id',
+  'name'=> 'Name',
+  'categories_id' => 'Categories',
   'description' => 'Description',
   'pic_path' => 'Pic path',
   'length' => 'Length',
