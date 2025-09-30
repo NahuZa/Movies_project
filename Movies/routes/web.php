@@ -11,7 +11,7 @@ use App\Http\Controllers\MovieController;
 use App\Http\Controllers\StudioController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('resources\views\movies\index.blade.php');
 });
 require_once base_path('routes\web\movies.php');
 require_once base_path('routes\web\categories.php');
@@ -80,7 +80,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/connect_movies_actors/{connect_movies_actors}', [ConnectMoviesActorsController::class, 'destroy'])->name('connect_movies_actors.destroy');
 });
 
-require __DIR__.'/auth.php';
+/*require __DIR__.'/auth.php';
 
     Route::post('/actors', [ActorController::class, 'index'])->name('actors.index');
     Route::post('/categories', [CategoryController::class, 'index'])->name('categories.index');
@@ -98,4 +98,4 @@ require __DIR__.'/auth.php';
     Route::post('/studios', [StudioController::class, 'show'])->name('studios.show');
     Route::post('/connect_categories_studios', [ConnectCategoriesStudiosController::class, 'show'])->name('connect_categories_studios.show');
     Route::post('/connect_directors_movies', [ConnectDirectorsMoviesController::class, 'show'])->name('connect_directors_movies.show');
-    Route::post('/connect_movies_actors', [ConnectMoviesActorsController::class, 'show'])->name('connect_movies_actors.show');
+    Route::post('/connect_movies_actors', [ConnectMoviesActorsController::class, 'show'])->name('connect_movies_actors.show');*/
