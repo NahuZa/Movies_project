@@ -15,16 +15,16 @@
         <form action="{{ route('categories.store') }}" method="POST">
             @csrf
                 <fieldset>
-        <label for="category',30);">
-            {{ __('categories.category',30);') }}
+        <label for="category">
+            {{ __('categories.category') }}
         </label>
         <input
             type="text"
-            name="category',30);"
-            id="category',30);"
+            name="category"
+            id="category"
             required
-            placeholder="{{ __('categories.category',30);') }}"
-            value="{{ old('category',30);') }}"
+            placeholder="{{ __('categories.category') }}"
+            value="{{ old('category') }}"
         >
     </fieldset>
 

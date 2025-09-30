@@ -19,7 +19,7 @@ class MovieController extends Controller
     public function index()
     {
         // Retrieve paginated results
-        $movies = Movie::paginate(config('app.pagination_limit', 20));
+        $movies = Movie::paginate(config('app.pagination_limit'));
 
         return view('movies.index', compact('movies'));
     }

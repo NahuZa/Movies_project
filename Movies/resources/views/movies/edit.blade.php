@@ -13,16 +13,16 @@
             @csrf
             @method('PUT')
                 <fieldset>
-        <label for="name',30);">
-            {{ __('movies.name',30);') }}
+        <label for="name">
+            {{ __('movies.name') }}
         </label>
         <input
             type="text"
-            name="name',30);"
-            id="name',30);"
+            name="name"
+            id="name"
             required
-            placeholder="{{ __('movies.name',30);') }}"
-            value="{{ old('name',30);', $movie->name',30);) }}"
+            placeholder="{{ __('movies.name')}}"
+            value="{{ old('name',$movie->name )}}"
         >
     </fieldset>
     <fieldset>
@@ -36,7 +36,7 @@
                 @if($category->id == $movie->categories_id)
                     {{ $selected = 'selected' }}
                 @endif
-                <option value="{{ $category->id }}" {{ $selected }}>{{ $category->name }}</option>
+                <option value="{{ $category->id }}" {{ $selected }}>{{ $category->category }}</option>
             @endforeach
         </select>
     </fieldset>

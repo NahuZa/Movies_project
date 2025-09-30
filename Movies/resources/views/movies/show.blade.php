@@ -8,11 +8,11 @@
         <!-- Data Display -->
         <ul>
                 <li>
-        <strong>{{ __('movies.name',30);') }}:</strong>
-        {{ $movie->name',30); }}
+        <strong>{{ __('movies.name') }}:</strong>
+        {{ $movie->name}}
     </li>    <li>
         <strong>{{ __('movies.categories_id') }}:</strong>
-        <td>{{ $movie->category->name ?? '' }}</td>
+        <td>{{ $movie->category->category ?? '' }}</td>
     </li>    <li>
         <strong>{{ __('movies.description') }}:</strong>
         {{ $movie->description }}

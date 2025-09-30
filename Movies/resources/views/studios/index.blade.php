@@ -23,7 +23,7 @@
             <thead>
                 <tr>
                     <!-- Dynamic Table Headers -->
-                                            <th>{{ __('studios.$table->string("name",30);') }}</th>
+                                            <th>{{ __('studios.name') }}</th>
                     <th>{{ __('skeletons.actions') }}</th>
                 </tr>
             </thead>
@@ -31,7 +31,7 @@
                 @foreach ($studios as $studio)
                     <tr>
                         <!-- Dynamic Table Columns -->
-                                                <td>{{ $studio->$table->string("name",30); }}</td>
+                                                <td>{{ $studio->name }}</td>
                         <!-- Action Buttons -->
                         <td>
                             <a href="{{ route('studios.show', $studio) }}" class="btn">{{ __('skeletons.show') }}</a>
@@ -51,7 +51,7 @@
 
         <!-- Pagination Links -->
         <div class="pagination">
-            {{ $studios->links(()) }}
+            {{ $studios->links() }}
         </div>
     </div>
 @endsection

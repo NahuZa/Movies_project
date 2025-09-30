@@ -23,7 +23,8 @@
             <thead>
                 <tr>
                     <!-- Dynamic Table Headers -->
-                                            <th>{{ __('movies.name',30);') }}</th>
+                                            <th>{{ __('movies.name') }}</th>
+                        <th>{{ __('categories.category') }}</th>
                         <th>{{ __('categories.category') }}</th>
                         <th>{{ __('movies.description') }}</th>
                         <th>{{ __('movies.pic_path') }}</th>
@@ -36,7 +37,7 @@
                 @foreach ($movies as $movie)
                     <tr>
                         <!-- Dynamic Table Columns -->
-                                                <td>{{ $movie->name',30); }}</td>
+                                                <td>{{ $movie->name }}</td>
                         <td>{{ $movie->category->name ?? '' }}</td>
                         <td>{{ $movie->description }}</td>
                         <td>{{ $movie->pic_path }}</td>
@@ -61,7 +62,7 @@
 
         <!-- Pagination Links -->
         <div class="pagination">
-            {{ $movies->links(()) }}
+            {{ $movies->links() }}
         </div>
     </div>
 @endsection

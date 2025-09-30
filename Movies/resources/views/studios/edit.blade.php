@@ -13,16 +13,16 @@
             @csrf
             @method('PUT')
                 <fieldset>
-        <label for="$table->string("name",30);">
-            {{ __('studios.$table->string("name",30);') }}
+        <label for="name">
+            {{ __('studios.name') }}
         </label>
         <input
             type="text"
-            name="$table->string("name",30);"
-            id="$table->string("name",30);"
+            name={{ $studio->name }};
+            id="studio_id";
             required
-            placeholder="{{ __('studios.$table->string("name",30);') }}"
-            value="{{ old('$table->string("name",30);', $studio->$table->string("name",30);) }}"
+            placeholder="{{ __('studios.name') }}"
+            value="{{ old('name', $studio->name)}}"
         >
     </fieldset>
 

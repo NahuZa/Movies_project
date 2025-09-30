@@ -23,7 +23,7 @@
             <thead>
                 <tr>
                     <!-- Dynamic Table Headers -->
-                                            <th>{{ __('directors.$table->string("name",30);') }}</th>
+                                            <th>{{ __('directors.name') }}</th>
                     <th>{{ __('skeletons.actions') }}</th>
                 </tr>
             </thead>
@@ -31,7 +31,7 @@
                 @foreach ($directors as $director)
                     <tr>
                         <!-- Dynamic Table Columns -->
-                                                <td>{{ $director->$table->string("name",30); }}</td>
+                                                <td>{{ $director->name }}</td>
                         <!-- Action Buttons -->
                         <td>
                             <a href="{{ route('directors.show', $director) }}" class="btn">{{ __('skeletons.show') }}</a>
@@ -51,7 +51,7 @@
 
         <!-- Pagination Links -->
         <div class="pagination">
-            {{ $directors->links(()) }}
+            {{ $directors->links() }}
         </div>
     </div>
 @endsection

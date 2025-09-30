@@ -8,8 +8,8 @@
         <!-- Data Display -->
         <ul>
                 <li>
-        <strong>{{ __('directors.$table->string("name",30);') }}:</strong>
-        {{ $director->$table->string("name",30); }}
+        <strong>{{ __('directors.name') }}:</strong>
+        {{ $director->name}}
     </li>
         </ul>
         <!-- Back Button -->
