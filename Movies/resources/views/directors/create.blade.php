@@ -1,14 +1,37 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
-<h1>Új rendező</h1>
+    <div class="container">
+        <!-- Page Title -->
+        <h1>{{ __('skeletons.creating', ['model' => strtolower(__('directors.director'))]) }}</h1>
 
-<form action="{{route('directors.store')}}" method="post">
-    @csrf
-    <fieldset>
-        <label for="name">Rendező neve: </label>
-        <input type="text" name="name" id="name">
+        <!-- Success Message -->
+        @include('layouts.success')
+
+        <!-- Error Message -->
+        @include('layouts.errors')
+
+        <!-- Form -->
+        <form action="{{ route('directors.store') }}" method="POST">
+            @csrf
+                <fieldset>
+        <label for="$table->string("name",30);">
+            {{ __('directors.$table->string("name",30);') }}
+        </label>
+        <input
+            type="text"
+            name="$table->string("name",30);"
+            id="$table->string("name",30);"
+            required
+            placeholder="{{ __('directors.$table->string("name",30);') }}"
+            value="{{ old('$table->string("name",30);') }}"
+        >
     </fieldset>
-    <button type="submit">Ment</button>
-</form>
+
+            <!-- Save Button -->
+            <button type="submit">{{ __('skeletons.save') }}</button>
+            <!-- Cancel Button -->
+            <a href="{{ route('directors.index') }}">{{ __('skeletons.cancel') }}</a>
+        </form>
+    </div>
 @endsection

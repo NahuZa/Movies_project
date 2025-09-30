@@ -1,7 +1,57 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
+    <div class="container">
+        <!-- Page Title -->
+        <h1>{{ __('skeletons.list_of', ['models' => __('categories.categories')]) }}</h1>
+        <!-- Error Message -->
+        @include('layouts.errors')
 
-<h1>Kategóriák</h1>
+        <!-- Success Message -->
+        @include('layouts.success')
 
+        <!-- Create Link -->
+        
+        <a href="{{ route('categories.create') }}" class="btn">{{ __('skeletons.create') }}</a>
+        
+
+        <!-- Search Field -->
+        @include('layouts.search', ['route' => 'categories.search'])
+
+        <!-- Data Table -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <!-- Dynamic Table Headers -->
+                                            <th>{{ __('categories.category',30);') }}</th>
+                    <th>{{ __('skeletons.actions') }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($categories as $category)
+                    <tr>
+                        <!-- Dynamic Table Columns -->
+                                                <td>{{ $category->category',30); }}</td>
+                        <!-- Action Buttons -->
+                        <td>
+                            <a href="{{ route('categories.show', $category) }}" class="btn">{{ __('skeletons.show') }}</a>
+                            
+                            <a href="{{ route('categories.edit', $category) }}" class="btn">{{ __('skeletons.edit') }}</a>
+                            <form action="{{ route('categories.destroy', $category) }}" method="POST" style="display:inline-block;">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger">{{ __('skeletons.delete') }}</button>
+                            </form>
+                            
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+
+        <!-- Pagination Links -->
+        <div class="pagination">
+            {{ $categories->links(()) }}
+        </div>
+    </div>
 @endsection

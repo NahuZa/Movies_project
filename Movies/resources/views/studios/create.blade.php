@@ -1,14 +1,37 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
-<h1>Új stúdió</h1>
+    <div class="container">
+        <!-- Page Title -->
+        <h1>{{ __('skeletons.creating', ['model' => strtolower(__('studios.studio'))]) }}</h1>
 
-<form action="{{route('studios.store')}}" method="post">
-    @csrf
-    <fieldset>
-        <label for="name">Stúdió neve: </label>
-        <input type="text" name="name" id="name">
+        <!-- Success Message -->
+        @include('layouts.success')
+
+        <!-- Error Message -->
+        @include('layouts.errors')
+
+        <!-- Form -->
+        <form action="{{ route('studios.store') }}" method="POST">
+            @csrf
+                <fieldset>
+        <label for="$table->string("name",30);">
+            {{ __('studios.$table->string("name",30);') }}
+        </label>
+        <input
+            type="text"
+            name="$table->string("name",30);"
+            id="$table->string("name",30);"
+            required
+            placeholder="{{ __('studios.$table->string("name",30);') }}"
+            value="{{ old('$table->string("name",30);') }}"
+        >
     </fieldset>
-    <button type="submit">Ment</button>
-</form>
+
+            <!-- Save Button -->
+            <button type="submit">{{ __('skeletons.save') }}</button>
+            <!-- Cancel Button -->
+            <a href="{{ route('studios.index') }}">{{ __('skeletons.cancel') }}</a>
+        </form>
+    </div>
 @endsection

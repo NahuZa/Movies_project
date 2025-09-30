@@ -1,14 +1,37 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
-<h1>Új kategória</h1>
+    <div class="container">
+        <!-- Page Title -->
+        <h1>{{ __('skeletons.creating', ['model' => strtolower(__('categories.category'))]) }}</h1>
 
-<form action="{{route('categories.store')}}" method="post">
-    @csrf
-    <fieldset>
-        <label for="category">Kategória: </label>
-        <input type="text" name="category" id="category">
+        <!-- Success Message -->
+        @include('layouts.success')
+
+        <!-- Error Message -->
+        @include('layouts.errors')
+
+        <!-- Form -->
+        <form action="{{ route('categories.store') }}" method="POST">
+            @csrf
+                <fieldset>
+        <label for="category',30);">
+            {{ __('categories.category',30);') }}
+        </label>
+        <input
+            type="text"
+            name="category',30);"
+            id="category',30);"
+            required
+            placeholder="{{ __('categories.category',30);') }}"
+            value="{{ old('category',30);') }}"
+        >
     </fieldset>
-    <button type="submit">Ment</button>
-</form>
+
+            <!-- Save Button -->
+            <button type="submit">{{ __('skeletons.save') }}</button>
+            <!-- Cancel Button -->
+            <a href="{{ route('categories.index') }}">{{ __('skeletons.cancel') }}</a>
+        </form>
+    </div>
 @endsection

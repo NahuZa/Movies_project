@@ -1,21 +1,50 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
-<h1>Új színész</h1>
+    <div class="container">
+        <!-- Page Title -->
+        <h1>{{ __('skeletons.creating', ['model' => strtolower(__('actors.actor'))]) }}</h1>
 
-<form action="{{route('actors.store')}}" method="post">
-    @csrf
-    <fieldset>
-        <label for="name">Színész neve: </label>
-        <input type="text" name="name" id="name">
+        <!-- Success Message -->
+        @include('layouts.success')
+
+        <!-- Error Message -->
+        @include('layouts.errors')
+
+        <!-- Form -->
+        <form action="{{ route('actors.store') }}" method="POST">
+            @csrf
+                <fieldset>
+        <label for="name',30);">
+            {{ __('actors.name',30);') }}
+        </label>
+        <input
+            type="text"
+            name="name',30);"
+            id="name',30);"
+            required
+            placeholder="{{ __('actors.name',30);') }}"
+            value="{{ old('name',30);') }}"
+        >
     </fieldset>
     <fieldset>
-        <label for="gender">Nem: </label>
-        <select name="gender" required>
-            <option value="N">Nő</option>
-            <option value="F">Férfi</option>
-        </select>
+        <label for="gender">
+            {{ __('actors.gender') }}
+        </label>
+        <input
+            type="text"
+            name="gender"
+            id="gender"
+            required
+            placeholder="{{ __('actors.gender') }}"
+            value="{{ old('gender') }}"
+        >
     </fieldset>
-    <button type="submit">Ment</button>
-</form>
+
+            <!-- Save Button -->
+            <button type="submit">{{ __('skeletons.save') }}</button>
+            <!-- Cancel Button -->
+            <a href="{{ route('actors.index') }}">{{ __('skeletons.cancel') }}</a>
+        </form>
+    </div>
 @endsection

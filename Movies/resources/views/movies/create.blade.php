@@ -1,39 +1,100 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
-<h1>Új film</h1>
+    <div class="container">
+        <!-- Page Title -->
+        <h1>{{ __('skeletons.creating', ['model' => strtolower(__('movies.movie'))]) }}</h1>
 
-<form action="{{route('movies.store')}}" method="post">
-    @csrf
-    <fieldset>
-        <label for="name">Film címe: </label>
-        <input type="text" name="name" id="name">
+        <!-- Success Message -->
+        @include('layouts.success')
+
+        <!-- Error Message -->
+        @include('layouts.errors')
+
+        <!-- Form -->
+        <form action="{{ route('movies.store') }}" method="POST">
+            @csrf
+                <fieldset>
+        <label for="name',30);">
+            {{ __('movies.name',30);') }}
+        </label>
+        <input
+            type="text"
+            name="name',30);"
+            id="name',30);"
+            required
+            placeholder="{{ __('movies.name',30);') }}"
+            value="{{ old('name',30);') }}"
+        >
     </fieldset>
     <fieldset>
-        <label for="categories_id">Kategória:</label>
-        <select name="categories_id" id="select-category" title="Kategóriák">
-            <option value="0">Válassz kategóriát</option>
-            @foreach ($categories as $category)
-                <option value="{{$category->id}}">{{$category->category}}</option>
+        <label for="categories_id">
+            {{ __('movies.categories_id') }}
+        </label>
+        <select name="categories_id" id="categories_id" required>
+            <option value="">{{ __('skeletons.select') }}</option>
+            @foreach($categories as $category)
+                <option value="{{ $category->id }}">{{ $category->name }}</option>
             @endforeach
         </select>
     </fieldset>
     <fieldset>
-        <label for="description">Leírás: </label>
-        <input type="text" name="description" id="description">
+        <label for="description">
+            {{ __('movies.description') }}
+        </label>
+        <input
+            type="text"
+            name="description"
+            id="description"
+            required
+            placeholder="{{ __('movies.description') }}"
+            value="{{ old('description') }}"
+        >
     </fieldset>
     <fieldset>
-        <label for="pic_path">Borítókép: </label>
-        <input type="img" name="pic_path" id="pic_path">
+        <label for="pic_path">
+            {{ __('movies.pic_path') }}
+        </label>
+        <input
+            type="text"
+            name="pic_path"
+            id="pic_path"
+            required
+            placeholder="{{ __('movies.pic_path') }}"
+            value="{{ old('pic_path') }}"
+        >
     </fieldset>
     <fieldset>
-        <label for="length">Hossza: </label>
-        <input type="text" name="length" id="length">
+        <label for="length">
+            {{ __('movies.length') }}
+        </label>
+        <input
+            type="text"
+            name="length"
+            id="length"
+            required
+            placeholder="{{ __('movies.length') }}"
+            value="{{ old('length') }}"
+        >
     </fieldset>
     <fieldset>
-        <label for="release_date">Megjelenés: </label>
-        <input type="text" name="release_date" id="release_date">
+        <label for="release_date">
+            {{ __('movies.release_date') }}
+        </label>
+        <input
+            type="text"
+            name="release_date"
+            id="release_date"
+            required
+            placeholder="{{ __('movies.release_date') }}"
+            value="{{ old('release_date') }}"
+        >
     </fieldset>
-    <button type="submit">Ment</button>
-</form>
+
+            <!-- Save Button -->
+            <button type="submit">{{ __('skeletons.save') }}</button>
+            <!-- Cancel Button -->
+            <a href="{{ route('movies.index') }}">{{ __('skeletons.cancel') }}</a>
+        </form>
+    </div>
 @endsection
