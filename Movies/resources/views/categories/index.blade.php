@@ -23,7 +23,7 @@
             <thead>
                 <tr>
                     <!-- Dynamic Table Headers -->
-                                            <th>{{ __('categories.category',30);') }}</th>
+                                            <th>{{ __('categories.category') }}</th>
                     <th>{{ __('skeletons.actions') }}</th>
                 </tr>
             </thead>
@@ -31,7 +31,7 @@
                 @foreach ($categories as $category)
                     <tr>
                         <!-- Dynamic Table Columns -->
-                                                <td>{{ $category->category',30); }}</td>
+                                                <td>{{ $category->category }}</td>
                         <!-- Action Buttons -->
                         <td>
                             <a href="{{ route('categories.show', $category) }}" class="btn">{{ __('skeletons.show') }}</a>
@@ -51,7 +51,7 @@
 
         <!-- Pagination Links -->
         <div class="pagination">
-            {{ $categories->links(()) }}
+            {{ $categories->links() }}
         </div>
     </div>
 @endsection

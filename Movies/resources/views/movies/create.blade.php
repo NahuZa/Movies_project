@@ -15,16 +15,16 @@
         <form action="{{ route('movies.store') }}" method="POST">
             @csrf
                 <fieldset>
-        <label for="name',30);">
-            {{ __('movies.name',30);') }}
+        <label for="name">
+            {{ __('movies.name') }}
         </label>
         <input
             type="text"
-            name="name',30);"
-            id="name',30);"
+            name="name"
+            id="name"
             required
-            placeholder="{{ __('movies.name',30);') }}"
-            value="{{ old('name',30);') }}"
+            placeholder="{{ __('movies.name') }}"
+            value="{{ old('name') }}"
         >
     </fieldset>
     <fieldset>

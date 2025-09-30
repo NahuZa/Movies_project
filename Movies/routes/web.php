@@ -11,7 +11,7 @@ use App\Http\Controllers\MovieController;
 use App\Http\Controllers\StudioController;
 
 Route::get('/', function () {
-    return view('resources\views\movies\index.blade.php');
+    return view('home');
 });
 require_once base_path('routes\web\movies.php');
 require_once base_path('routes\web\categories.php');
@@ -19,17 +19,7 @@ require_once base_path('routes\web\actors.php');
 require_once base_path('routes\web\studios.php');
 require_once base_path('routes\web\directors.php');
 
-Route::resource('actors', ActorController::class);
-Route::resource('categories', CategoryController::class);
-Route::resource('directors', DirectorController::class);
-Route::resource('movies', MovieController::class);
-Route::resource('studios', StudioController::class);
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
 
     Route::post('/actors', [ActorController::class, 'store'])->name('actors.store');
     Route::get('/actors/create', [ActorController::class, 'create'])->name('actors.create');
@@ -78,7 +68,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/connect_movies_actors/{connect_movies_actors}/edit', [ConnectMoviesActorsController::class, 'edit'])->name('connect_movies_actors.edit');
 	Route::patch('/connect_movies_actors/{connect_movies_actors}', [ConnectMoviesActorsController::class, 'update'])->name('connect_movies_actors.update');
     Route::delete('/connect_movies_actors/{connect_movies_actors}', [ConnectMoviesActorsController::class, 'destroy'])->name('connect_movies_actors.destroy');
-});
+
 
 /*require __DIR__.'/auth.php';
 

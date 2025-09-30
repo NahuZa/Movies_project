@@ -26,5 +26,5 @@ class Category extends EloquentModel
         return $this->hasMany(Movie::class, 'categories_id', 'id');
     }
 
-    protected $fillable = ['category'];
+    /*protected $fillable = ['category'];*/
 }

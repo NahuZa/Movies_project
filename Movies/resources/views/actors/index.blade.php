@@ -23,7 +23,7 @@
             <thead>
                 <tr>
                     <!-- Dynamic Table Headers -->
-                                            <th>{{ __('actors.name',30);') }}</th>
+                                            <th>{{ __('actors.name') }}</th>
                         <th>{{ __('actors.gender') }}</th>
                     <th>{{ __('skeletons.actions') }}</th>
                 </tr>
@@ -32,7 +32,7 @@
                 @foreach ($actors as $actor)
                     <tr>
                         <!-- Dynamic Table Columns -->
-                                                <td>{{ $actor->name',30); }}</td>
+                                                <td>{{ $actor->name }}</td>
                         <td>{{ $actor->gender }}</td>
                         <!-- Action Buttons -->
                         <td>
@@ -53,7 +53,7 @@
 
         <!-- Pagination Links -->
         <div class="pagination">
-            {{ $actors->links(()) }}
+            {{ $actors->links() }}
         </div>
     </div>
 @endsection
