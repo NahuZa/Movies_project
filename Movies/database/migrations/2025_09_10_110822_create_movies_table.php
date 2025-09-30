@@ -11,10 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('movies_directors', function (Blueprint $table) {
+        Schema::create('movies', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('movie_id');
-            $table->foreign('movie_id')->references('id')->on('movies');
+            $table->string('name',60);
+            $table->unsignedBigInteger('categories_id');
+            $table->foreign('categories_id')->references('id')->on('categories');
+            $table->string('description');
+            $table->string('pic_path');
+            $table->string('length');
+            $table->string('release_date');
             $table->unsignedBigInteger('director_id');
             $table->foreign('director_id')->references('id')->on('directors');
         });
@@ -25,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('movies_directors');
+        Schema::dropIfExists('movies');
     }
 };

@@ -18,6 +18,11 @@ class Director extends EloquentModel
     protected $fillable = ['name'];
 
     public $timestamps = false;
+
+    public function movies()
+    {
+        return $this->hasMany(Movie::class, 'director_id', 'id');
+    }
     
 
 }

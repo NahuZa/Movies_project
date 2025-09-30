@@ -15,13 +15,19 @@ class Movie extends EloquentModel
 
     protected $table = 'movies';
 
-    protected $fillable = ['name', 'categories_id', 'description', 'pic_path', 'length', 'release_date'];
+    protected $fillable = ['name', 'categories_id', 'description', 'pic_path', 'length', 'release_date','director_id'];
 
     public $timestamps = false;
 
     public function category()
     {
         return $this->belongsTo(Category::class, 'categories_id', 'id');
+    }
+
+    
+    public function director()
+    {
+        return $this->belongsTo(Director::class, 'director_id', 'id');
     }
 
 }
